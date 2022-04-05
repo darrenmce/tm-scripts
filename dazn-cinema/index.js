@@ -10,18 +10,14 @@
   const playerWidth = player.css("width");
 
   function applyCinema() {
+    player.find('main').css({ maxWidth: 'revert' });
+
     player.css({
       width: "auto",
       margin: "revert"
     });
 
     sidebar.hide();
-  }
-
-  // for debugging purposes
-  function restore() {
-    sidebar.show();
-    player.css({ width: playerWidth, margin: "0 auto" });
   }
 
   applyCinema();
