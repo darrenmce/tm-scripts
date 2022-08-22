@@ -1,0 +1,12 @@
+// ==UserScript==
+// @name         Weakstreams Video Isolate
+// @version      0.1
+// @description  weakstream video isolation script
+// @author       You
+// @match        http://weakstreams.com/*
+// @icon         https://www.google.com/s2/favicons?sz=64&domain=weakstreams.com
+// @grant        GM_addStyle
+// @run-at       context-menu
+// @require      https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js
+// @require      file:///home/darrenmce/projects/tm-scripts/weakstream/index.js
+// ==/UserScript==
